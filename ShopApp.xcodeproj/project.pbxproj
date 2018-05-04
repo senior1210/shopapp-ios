@@ -572,6 +572,7 @@
 		61ED88F31F7170C9006BDA79 /* GridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED88F11F7170C9006BDA79 /* GridCollectionViewCell.swift */; };
 		61ED88F41F7170C9006BDA79 /* GridCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61ED88F21F7170C9006BDA79 /* GridCollectionViewCell.xib */; };
 		61ED88F71F7171F1006BDA79 /* GridCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED88F61F7171F1006BDA79 /* GridCollectionViewController.swift */; };
+		61F9BF22209C72CC00D436F1 /* CheckboxButtonSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F9BF21209C72CC00D436F1 /* CheckboxButtonSpec.swift */; };
 		61FC3DA91F7EB43700DB0AD7 /* ProductOptionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC3DA71F7EB43700DB0AD7 /* ProductOptionCollectionViewCell.swift */; };
 		61FC3DAA1F7EB43700DB0AD7 /* ProductOptionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61FC3DA81F7EB43700DB0AD7 /* ProductOptionCollectionViewCell.xib */; };
 		63527C74722183D42EA35E52 /* Pods_ShopApp_ShopAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D594F134F6B27B147CD34F /* Pods_ShopApp_ShopAppTests.framework */; };
@@ -1232,6 +1233,7 @@
 		61ED88F11F7170C9006BDA79 /* GridCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCollectionViewCell.swift; sourceTree = "<group>"; };
 		61ED88F21F7170C9006BDA79 /* GridCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridCollectionViewCell.xib; sourceTree = "<group>"; };
 		61ED88F61F7171F1006BDA79 /* GridCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCollectionViewController.swift; sourceTree = "<group>"; };
+		61F9BF21209C72CC00D436F1 /* CheckboxButtonSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxButtonSpec.swift; sourceTree = "<group>"; };
 		61FC3DA71F7EB43700DB0AD7 /* ProductOptionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOptionCollectionViewCell.swift; sourceTree = "<group>"; };
 		61FC3DA81F7EB43700DB0AD7 /* ProductOptionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductOptionCollectionViewCell.xib; sourceTree = "<group>"; };
 		61FFEDB82007C27E00775FBA /* ShopApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShopApp.entitlements; sourceTree = "<group>"; };
@@ -3119,6 +3121,7 @@
 				0B7CEF79203B15B900FAA32C /* Account */,
 				0B7CEF93203C0DD400FAA32C /* Base */,
 				6186C30F20501A800057B221 /* Cart */,
+				61F9BF1E209C72A600D436F1 /* Checkout */,
 				61276E1120581BC400E2C3AF /* Main */,
 				0B8445D0206014050009012A /* Shared */,
 			);
@@ -3645,6 +3648,22 @@
 				61ED88F21F7170C9006BDA79 /* GridCollectionViewCell.xib */,
 			);
 			path = GridCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		61F9BF1E209C72A600D436F1 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				61F9BF1F209C72B100D436F1 /* Views */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		61F9BF1F209C72B100D436F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				61F9BF21209C72CC00D436F1 /* CheckboxButtonSpec.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		61FC3DA61F7EB41900DB0AD7 /* ProductOptionHeaderView */ = {
@@ -4357,6 +4376,7 @@
 				0BE96578204004D200308CA9 /* SignUpViewModelMock.swift in Sources */,
 				61BA33FD2049527F0054FCA7 /* BaseAddressListViewControllerSpec.swift in Sources */,
 				0BB82C68206CE4EB0012C40A /* CoreDataImageAdapterSpec.swift in Sources */,
+				61F9BF22209C72CC00D436F1 /* CheckboxButtonSpec.swift in Sources */,
 				0BA5DC17207390E900668C99 /* ProductUseCaseSpec.swift in Sources */,
 				0BA5DC272073C08D00668C99 /* CheckoutUseCaseSpec.swift in Sources */,
 				0B2D8601206B7F6500D12ED7 /* ShopAppShopRepositorySpec.swift in Sources */,
