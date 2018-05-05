@@ -580,6 +580,9 @@
 		61F9BF47209DA74900D436F1 /* CheckoutAddressListViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F9BF46209DA74900D436F1 /* CheckoutAddressListViewModelSpec.swift */; };
 		61F9BF49209DB76C00D436F1 /* CheckoutAddressListViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F9BF48209DB76C00D436F1 /* CheckoutAddressListViewControllerSpec.swift */; };
 		61F9BF4B209DB86800D436F1 /* CheckoutAddressListViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F9BF4A209DB86800D436F1 /* CheckoutAddressListViewModelMock.swift */; };
+		61F9BF4D209DDEC800D436F1 /* CheckoutFailureViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F9BF4C209DDEC800D436F1 /* CheckoutFailureViewControllerSpec.swift */; };
+		61F9BF4F209DEB1100D436F1 /* CheckoutFailureViewControllerDelegateMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F9BF4E209DEB1100D436F1 /* CheckoutFailureViewControllerDelegateMock.swift */; };
+		61F9BF51209DF00D00D436F1 /* CheckoutSuccessViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F9BF50209DF00D00D436F1 /* CheckoutSuccessViewControllerSpec.swift */; };
 		61FC3DA91F7EB43700DB0AD7 /* ProductOptionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC3DA71F7EB43700DB0AD7 /* ProductOptionCollectionViewCell.swift */; };
 		61FC3DAA1F7EB43700DB0AD7 /* ProductOptionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61FC3DA81F7EB43700DB0AD7 /* ProductOptionCollectionViewCell.xib */; };
 		63527C74722183D42EA35E52 /* Pods_ShopApp_ShopAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D594F134F6B27B147CD34F /* Pods_ShopApp_ShopAppTests.framework */; };
@@ -1248,6 +1251,9 @@
 		61F9BF46209DA74900D436F1 /* CheckoutAddressListViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutAddressListViewModelSpec.swift; sourceTree = "<group>"; };
 		61F9BF48209DB76C00D436F1 /* CheckoutAddressListViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutAddressListViewControllerSpec.swift; sourceTree = "<group>"; };
 		61F9BF4A209DB86800D436F1 /* CheckoutAddressListViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutAddressListViewModelMock.swift; sourceTree = "<group>"; };
+		61F9BF4C209DDEC800D436F1 /* CheckoutFailureViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutFailureViewControllerSpec.swift; sourceTree = "<group>"; };
+		61F9BF4E209DEB1100D436F1 /* CheckoutFailureViewControllerDelegateMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutFailureViewControllerDelegateMock.swift; sourceTree = "<group>"; };
+		61F9BF50209DF00D00D436F1 /* CheckoutSuccessViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutSuccessViewControllerSpec.swift; sourceTree = "<group>"; };
 		61FC3DA71F7EB43700DB0AD7 /* ProductOptionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOptionCollectionViewCell.swift; sourceTree = "<group>"; };
 		61FC3DA81F7EB43700DB0AD7 /* ProductOptionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductOptionCollectionViewCell.xib; sourceTree = "<group>"; };
 		61FFEDB82007C27E00775FBA /* ShopApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShopApp.entitlements; sourceTree = "<group>"; };
@@ -3689,6 +3695,8 @@
 				61F9BF41209CB1ED00D436F1 /* Mocks */,
 				61F9BF3F209CABB700D436F1 /* CheckoutAddressFormViewControllerSpec.swift */,
 				61F9BF48209DB76C00D436F1 /* CheckoutAddressListViewControllerSpec.swift */,
+				61F9BF4C209DDEC800D436F1 /* CheckoutFailureViewControllerSpec.swift */,
+				61F9BF50209DF00D00D436F1 /* CheckoutSuccessViewControllerSpec.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -3707,6 +3715,7 @@
 				61F9BF42209CB1FA00D436F1 /* CheckoutAddressFormViewModelMock.swift */,
 				61F9BF44209CB27200D436F1 /* CheckoutAddressFormControllerDelegateMock.swift */,
 				61F9BF4A209DB86800D436F1 /* CheckoutAddressListViewModelMock.swift */,
+				61F9BF4E209DEB1100D436F1 /* CheckoutFailureViewControllerDelegateMock.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -4430,6 +4439,7 @@
 				0BA5DC17207390E900668C99 /* ProductUseCaseSpec.swift in Sources */,
 				0BA5DC272073C08D00668C99 /* CheckoutUseCaseSpec.swift in Sources */,
 				0B2D8601206B7F6500D12ED7 /* ShopAppShopRepositorySpec.swift in Sources */,
+				61F9BF4D209DDEC800D436F1 /* CheckoutFailureViewControllerSpec.swift in Sources */,
 				0B2D85EF206B7BEE00D12ED7 /* APIMock.swift in Sources */,
 				61E14D4F2040594F000AB2CB /* AddressFormViewModelMock.swift in Sources */,
 				6130DE6620625B2A00BAA833 /* ProductOptionsCollectionViewCellSpec.swift in Sources */,
@@ -4457,6 +4467,7 @@
 				0B83E001204EC3AC0037035D /* AccountNotLoggedHeaderDelegateMock.swift in Sources */,
 				0BB82C7B206E748F0012C40A /* CoreDataDAOSpec.swift in Sources */,
 				61276E3020581BC400E2C3AF /* ArticleListTableProviderSpec.swift in Sources */,
+				61F9BF4F209DEB1100D436F1 /* CheckoutFailureViewControllerDelegateMock.swift in Sources */,
 				0B437178204D783A00C086CF /* OrderFooterViewMock.swift in Sources */,
 				0B5768E0204D477B0001738D /* AccountTableProviderDelegateMock.swift in Sources */,
 				0B5768D8204D3B040001738D /* SettingsViewControllerSpec.swift in Sources */,
@@ -4484,6 +4495,7 @@
 				0BE96574203FF7CE00308CA9 /* SignInViewModelSpec.swift in Sources */,
 				61276E3320581BC400E2C3AF /* HomeViewControllerSpec.swift in Sources */,
 				61CCF0BE20600065004CF487 /* ProductDetailsViewModelMock.swift in Sources */,
+				61F9BF51209DF00D00D436F1 /* CheckoutSuccessViewControllerSpec.swift in Sources */,
 				0B5768D3204D3B040001738D /* LinkViewControllerSpec.swift in Sources */,
 				0BA5DC08207377F300668C99 /* DeleteCartProductUseCaseSpec.swift in Sources */,
 				61F9BF49209DB76C00D436F1 /* CheckoutAddressListViewControllerSpec.swift in Sources */,

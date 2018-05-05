@@ -63,7 +63,7 @@ class CheckoutAddressListViewControllerSpec: QuickSpec {
                 expect(viewController.viewModel).to(beAKindOf(CheckoutAddressListViewModel.self))
             }
             
-            it("should pas correct properties to view model") {
+            it("should pass correct properties to view model") {
                 expect(viewController.viewModel.checkoutId) == viewController.checkoutId
             }
             
