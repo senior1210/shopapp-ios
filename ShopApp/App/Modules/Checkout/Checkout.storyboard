@@ -464,7 +464,7 @@
         <!--Checkout Address List View Controller-->
         <scene sceneID="aDG-Ct-2ha">
             <objects>
-                <viewController id="xSx-Ui-7AL" customClass="CheckoutAddressListViewController" customModule="ShopApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CheckoutAddressListControllerIdentifier" id="xSx-Ui-7AL" customClass="CheckoutAddressListViewController" customModule="ShopApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BVy-Nn-2we">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

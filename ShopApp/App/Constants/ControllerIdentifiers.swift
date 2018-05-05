@@ -44,4 +44,5 @@ struct ControllerIdentifiers {
     static let tabBar = "TabBarControllerIdentifier"
     static let splash = "SplashControllerIdentifier"
     static let checkoutAddressForm = "CheckoutAddressFormControllerIdentifier"
+    static let checkoutAddressList = "CheckoutAddressListControllerIdentifier"
 }
