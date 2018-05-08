@@ -446,6 +446,9 @@
 		61725FCE1FEAC210009F55EA /* BoldTitleTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61725FCD1FEAC210009F55EA /* BoldTitleTableHeaderView.swift */; };
 		61725FD01FEAC218009F55EA /* BoldTitleTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61725FCF1FEAC218009F55EA /* BoldTitleTableHeaderView.xib */; };
 		6176DA0020A08983004D74AC /* CreditCardViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176D9FF20A08983004D74AC /* CreditCardViewModelSpec.swift */; };
+		6176DA0220A097B9004D74AC /* CreditCardViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176DA0120A097B9004D74AC /* CreditCardViewControllerSpec.swift */; };
+		6176DA0420A19A2C004D74AC /* CreditCardViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176DA0320A19A2C004D74AC /* CreditCardViewModelMock.swift */; };
+		6176DA0620A1A401004D74AC /* CreditCardControllerDelegateMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176DA0520A1A401004D74AC /* CreditCardControllerDelegateMock.swift */; };
 		617D688C203C5E74001E8940 /* OrderListUseCaseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D688B203C5E74001E8940 /* OrderListUseCaseMock.swift */; };
 		617D688E203C5EF3001E8940 /* OrderListViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D688D203C5EF3001E8940 /* OrderListViewModelSpec.swift */; };
 		617DE1821FB5E9B4004EEF9A /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617DE1811FB5E9B4004EEF9A /* Account.storyboard */; };
@@ -1117,6 +1120,9 @@
 		61725FCD1FEAC210009F55EA /* BoldTitleTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldTitleTableHeaderView.swift; sourceTree = "<group>"; };
 		61725FCF1FEAC218009F55EA /* BoldTitleTableHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoldTitleTableHeaderView.xib; sourceTree = "<group>"; };
 		6176D9FF20A08983004D74AC /* CreditCardViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardViewModelSpec.swift; sourceTree = "<group>"; };
+		6176DA0120A097B9004D74AC /* CreditCardViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardViewControllerSpec.swift; sourceTree = "<group>"; };
+		6176DA0320A19A2C004D74AC /* CreditCardViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardViewModelMock.swift; sourceTree = "<group>"; };
+		6176DA0520A1A401004D74AC /* CreditCardControllerDelegateMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardControllerDelegateMock.swift; sourceTree = "<group>"; };
 		617D688B203C5E74001E8940 /* OrderListUseCaseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListUseCaseMock.swift; sourceTree = "<group>"; };
 		617D688D203C5EF3001E8940 /* OrderListViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModelSpec.swift; sourceTree = "<group>"; };
 		617D688F203C5F5A001E8940 /* OrderListViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewControllerSpec.swift; sourceTree = "<group>"; };
@@ -3700,6 +3706,7 @@
 				61F9BF48209DB76C00D436F1 /* CheckoutAddressListViewControllerSpec.swift */,
 				61F9BF4C209DDEC800D436F1 /* CheckoutFailureViewControllerSpec.swift */,
 				61F9BF50209DF00D00D436F1 /* CheckoutSuccessViewControllerSpec.swift */,
+				6176DA0120A097B9004D74AC /* CreditCardViewControllerSpec.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -3719,6 +3726,8 @@
 				61F9BF44209CB27200D436F1 /* CheckoutAddressFormControllerDelegateMock.swift */,
 				61F9BF4A209DB86800D436F1 /* CheckoutAddressListViewModelMock.swift */,
 				61F9BF4E209DEB1100D436F1 /* CheckoutFailureViewControllerDelegateMock.swift */,
+				6176DA0320A19A2C004D74AC /* CreditCardViewModelMock.swift */,
+				6176DA0520A1A401004D74AC /* CreditCardControllerDelegateMock.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -4311,6 +4320,7 @@
 				61CCF0C02060009B004CF487 /* ImagesCarouselCollectionProviderSpec.swift in Sources */,
 				6122F5DE2052E7D900F574BB /* CartTableCellDelegateMock.swift in Sources */,
 				0BB82C6A206CE4F50012C40A /* CoreDataProductVariantAdapterSpec.swift in Sources */,
+				6176DA0220A097B9004D74AC /* CreditCardViewControllerSpec.swift in Sources */,
 				61ABAF6A205977E100D73392 /* CategoryViewModelMock.swift in Sources */,
 				614B6DED205840D30000356E /* PopularTableViewCellSpec.swift in Sources */,
 				614ED7E1203F34FC00435708 /* OrderDetailsTableProviderDelegateMock.swift in Sources */,
@@ -4438,6 +4448,7 @@
 				0B2D85F1206B7EBB00D12ED7 /* ShopAppArticleRepositorySpec.swift in Sources */,
 				0BA5DC1F2073AFB000668C99 /* CustomerUseCaseSpec.swift in Sources */,
 				0BE96578204004D200308CA9 /* SignUpViewModelMock.swift in Sources */,
+				6176DA0620A1A401004D74AC /* CreditCardControllerDelegateMock.swift in Sources */,
 				61BA33FD2049527F0054FCA7 /* BaseAddressListViewControllerSpec.swift in Sources */,
 				0BB82C68206CE4EB0012C40A /* CoreDataImageAdapterSpec.swift in Sources */,
 				0BA5DC17207390E900668C99 /* ProductUseCaseSpec.swift in Sources */,
@@ -4536,6 +4547,7 @@
 				0BB82C76206D28080012C40A /* ImageEntityUpdateServiceSpec.swift in Sources */,
 				614ED7DD203F0CBD00435708 /* OrderUseCaseMock.swift in Sources */,
 				614C80B42046DA6C006A99E0 /* AddAddressUseCaseMock.swift in Sources */,
+				6176DA0420A19A2C004D74AC /* CreditCardViewModelMock.swift in Sources */,
 				614B6DE920582FCE0000356E /* LastArrivalsTableCellProviderSpec.swift in Sources */,
 				0B83E02D2056A4980037035D /* ArticleUseCaseMock.swift in Sources */,
 				611607DF204804C5000A12D6 /* UpdateDefaultAddressUseCaseMock.swift in Sources */,
