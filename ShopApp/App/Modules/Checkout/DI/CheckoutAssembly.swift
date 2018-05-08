@@ -31,7 +31,8 @@ class CheckoutAssembly: Assembly {
         }
 
         container.storyboardInitCompleted(PaymentTypeViewController.self) { r, c in
-            c.viewModel = r.resolve(PaymentTypeViewModel.self)!
+            c.viewModel = r.resolve(BaseViewModel.self)!
+            c.tableProvider = r.resolve(PaymentTypeProvider.self)!
         }
 
         // MARK: - View models
@@ -59,14 +60,18 @@ class CheckoutAssembly: Assembly {
             return CreditCardViewModel()
         }
 
-        container.register(PaymentTypeViewModel.self) { r in
-            return PaymentTypeViewModel(checkoutUseCase: r.resolve(CheckoutUseCase.self)!)
+        container.register(BaseViewModel.self) { _ in
+            return BaseViewModel()
         }
         
         // MARK: - Providers
         
         container.register(BaseAddressListTableProvider.self) { _ in
             return BaseAddressListTableProvider()
+        }
+        
+        container.register(PaymentTypeProvider.self) { _ in
+            return PaymentTypeProvider()
         }
     }
 }
