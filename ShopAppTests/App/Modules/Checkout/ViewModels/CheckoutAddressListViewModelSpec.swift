@@ -109,6 +109,7 @@ class CheckoutAddressListViewModelSpec: QuickSpec {
                 beforeEach {
                     selected = true
                     viewModel.customerDefaultAddress.value = address
+                    checkoutUseCaseMock.isNeedToReturnError = false
                 }
                 
                 context("and address list type is shipping") {
